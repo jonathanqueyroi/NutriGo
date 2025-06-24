@@ -1,50 +1,118 @@
-# Welcome to your Expo app 👋
+# Fit Recipes - Application mobile de recettes intelligentes
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[![Made with React Native](https://img.shields.io/badge/Made%20with-React%20Native-blue)](https://reactnative.dev/)
+[![MongoDB](https://img.shields.io/badge/Database-MongoDB-green)](https://www.mongodb.com/)
 
-## Get started
+## Présentation
 
-1. Install dependencies
+**Fit Recipes** est une application mobile moderne qui vous aide à :
+- Gérer vos **ingrédients**
+- Proposer des **recettes adaptées**
+- Créer une **liste de courses**
+- Suivre vos **calories**
+- Planifier vos **entraînements de musculation**
 
-   ```bash
-   npm install
-   ```
+Le tout dans une interface claire, responsive et agréable.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## Fonctionnalités principales
 
-In the output, you'll find options to open the app in a
+- Ajout, édition et suppression d’ingrédients
+- Stockage des données sur MongoDB Atlas
+- Choix de l’unité et de la date d’expiration
+- Génération automatique de liste de courses (à venir)
+- Suivi des calories et macro-nutriments (à venir)
+- Planning des entraînements (à venir)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Tech Stack
 
-## Get a fresh project
+- **Frontend** : React Native + Expo + Tailwind CSS (via NativeWind)
+- **Backend** : Node.js + Express
+- **Base de données** : MongoDB Atlas
+- **Autres** : Axios, DateTimePicker, Expo Router
 
-When you're ready, run:
+---
+
+## 🚀 Installation
+
+1. **Cloner le projet**  
+```bash
+git clone https://github.com/ton-pseudo/fit-recipes-app.git
+cd fit-recipes-app
+````
+
+2. **Installer les dépendances**
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+3. **Lancer l’application mobile (Expo)**
 
-## Learn more
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. **Lancer le backend (depuis le dossier `server/`)**
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+cd server
+npm install
+node index.js
+```
 
-## Join the community
+5. **Configurer l’environnement (`.env`) dans le dossier `server/`)**
 
-Join our community of developers creating universal apps.
+```env
+MONGODB_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/fit-recipes
+PORT=4000
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## Roadmap
+
+* ✅ Interface mobile des ingrédients
+* ✅ Backend Node.js avec MongoDB
+* ✅ Ajout / modification / suppression d'ingrédients
+* 🔄 Création de recettes à partir des ingrédients
+* 🔄 Génération automatique de liste de courses
+* 🔄 Module nutrition : calories et macros
+* 🔄 Module musculation : planification et suivi
+
+---
+
+## Technologies utilisées
+
+* **React Native** avec **Expo**
+* **Tailwind CSS** via `nativewind`
+* **Node.js** avec **Express.js**
+* **MongoDB Atlas**
+* **Expo Router**
+* **Axios**
+* **AsyncStorage**
+* **React Native DateTimePicker**
+* **React Navigation**
+
+---
+
+## Auteur
+
+**Jonathan Queyroi**
+Étudiant ingénieur à Polytech Sorbonne
+📧 [jonath91220@gmail.com](mailto:jonath91220@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/jonathan-queyroi-590a3b236/)
+
+---
+
+## 📄 Licence
+
+Ce projet est sous licence **MIT**.
+Vous pouvez l'utiliser librement à des fins personnelles ou éducatives.
+
+---
+
+> *"Parce qu'une bonne alimentation commence par une bonne organisation."*
