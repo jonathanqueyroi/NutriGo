@@ -1,4 +1,4 @@
-# Fit Recipes - Application mobile de recettes intelligentes
+# NutriGo - Application mobile de recettes intelligentes
 
 [![Made with React Native](https://img.shields.io/badge/Made%20with-React%20Native-blue)](https://reactnative.dev/)
 [![MongoDB](https://img.shields.io/badge/Database-MongoDB-green)](https://www.mongodb.com/)
